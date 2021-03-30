@@ -1,5 +1,6 @@
 import telebot
-from telebot import *
+from telebot import types
+from telebot.types import InlineKeyboardButton, InlineKeyboardMarkup
 from settings import *
 
 bot = telebot.TeleBot(Token, skip_pending=True)
